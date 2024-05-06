@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function() {
       // Alert message will only pop up when the button is clicked
       alert("Hello, world!");
       textInput.style.fontSize = "24px";
-
     });
     //event listern for 'moo' button
     mooButton.addEventListener("click", function() {
@@ -22,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
       textInput.value = textInput.value.toUpperCase(); // Convert text to uppercase
       var str = textInput.value; 
       var parts = str.split(".");
-      str = parts.join(".Moo");
+      str = parts.join(".-Moo");
       textInput.value = str; 
 
     });
